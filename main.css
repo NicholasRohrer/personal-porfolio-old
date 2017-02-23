@@ -25,4 +25,10 @@ body {
 
 .home-section {
 	background-color: #4eabe5;
+	color: white;
+}
+
+.about-section {
+	background-color: #a1aaaf;
+	color: white;
 }
