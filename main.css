@@ -1,5 +1,5 @@
 body {
-  font: 16px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.8;
   color: black;
@@ -28,6 +28,10 @@ body {
 	color: white;
 }
 
+h1 {
+  margin-top: 30px;
+}
+
 .about-section {
 	background-color: #a1aaaf;
 	color: white;
@@ -36,4 +40,12 @@ body {
 .contact-section {
 	background-color: #a1aaaf;
 	color: white;
+}
+
+.fa {
+  font-size: 4em;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
