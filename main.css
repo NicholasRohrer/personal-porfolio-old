@@ -53,6 +53,10 @@ h1 {
   font-size: 1.2em;
 }
 
+.project-description {
+  margin-bottom: 40px;
+}
+
 .contact-section {
 	background-color: #a1aaaf;
 	color: white;
