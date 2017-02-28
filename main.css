@@ -42,6 +42,14 @@ h1 {
 	color: white;
 }
 
+.portfolio-img {
+  border: solid;
+}
+
+.project-title {
+  margin-top: 10px;
+}
+
 .contact-section {
 	background-color: #a1aaaf;
 	color: white;
