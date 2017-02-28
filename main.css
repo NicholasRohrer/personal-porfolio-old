@@ -44,6 +44,8 @@ h1 {
 
 .portfolio-img {
   border: solid;
+  border-width: 5px;
+  border-color: black;
 }
 
 .project-title {
