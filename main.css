@@ -42,6 +42,10 @@ h1 {
 	color: white;
 }
 
+#portfolio {
+  margin-bottom: -80px;
+}
+
 .portfolio-img {
   border: solid;
   border-width: 5px;
