@@ -6,12 +6,14 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- font awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- css file -->
 	<link rel="stylesheet" type="text/css" href="../Portfolio/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -28,13 +30,102 @@
     	</div>
 	    <div class="collapse navbar-collapse" id="topNavbar">
 	    	<ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">ABOUT</a></li>
-		        <li><a href="#">RECENT WORK</a></li>
-		        <li><a href="#">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+		        <li><a href="#about">ABOUT</a></li>
+		        <li><a href="#portfolio">RECENT WORK</a></li>
+		        <li><a href="#contact">CONTACT</a></li>
 	      	</ul>
 	    </div>
 	</div>
 </nav>
+
+<!-- Home -->
+<div class="container-fluid text-center home-section" id="home">
+    <h1>Nicholas Rohrer</h1>
+    <h3>Web Developer - Javascript Engineer</h3>
+    <a href="https://github.com/NicholasRohrer" target="_blank"><i class="fa fa-github social" aria-hidden="true"></i></a>
+    <a href="https://www.freecodecamp.com/nicholasrohrer" target="_blank"><i class="fa fa-free-code-camp social" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/nicholas-rohrer-17b779101/" target="_blank"><i class="fa fa-linkedin-square social" aria-hidden="true"></i></a>
+    <a href="http://stackoverflow.com/users/6843762/nicholas-rohrer" target="_blank"><i class="fa fa-stack-overflow social" aria-hidden="true"></i></a>
+</div>
+
+<!-- About Section -->
+<div class="container-fluid text-center about-section" id="about">
+    <h3>About Me</h3>
+
+    <div class="row">
+    	<div class="col-md-6 col-md-offset-3">
+		    <p>Hello! My name is Nicholas Rohrer, and I am a front end web developer and javascript engineer. I studied computer engineering for 3 years at the Univeristy of Illinois at Urbana-Champaign and received a Bachelor of Science in Atmospheric Sciences.</p>
+    	</div>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-6 col-md-offset-3">
+		    <p>My software background includes front end technologies like Javascript, HTML, and CSS. I am also very familiair with languages such as C, C++, and Python. I am currently studying Angular, React, MongoDB, and other backend technologies.</p>
+    	</div>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-6 col-md-offset-3">
+		    <p>Take a look at some of my recent work below!</p>
+    	</div>
+    </div>
+</div>
+
+<!-- Portfolio Section -->
+<div class="container-fluid text-center portfolio-section">
+    <h3>Recent Work</h3>
+
+    <div class="container-fluid text-center" id="portfolio">
+    	<div class="row">
+    		<div class="col-sm-4">
+    			<a href="https://nicholasrohrer.github.io/Twitch-Viewer/" target="_blank"><img src="../Portfolio/img/twitch_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+    			<p class="project-title">Twitch Viewer</p>
+    			<p class="project-description">View live data from a selection of Twitch streamers. Check online status and current viewer count.</p>
+    		</div>
+            <div class="col-sm-4">
+                <a href="https://nicholasrohrer.github.io/Stopwatch/" target="_blank"><img src="../Portfolio/img/stopwatch_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+                <p class="project-title">Stopwatch</p>
+                <p class="project-description">Start, stop, and reset a 60 minute timer.</p>
+            </div>
+    		<div class="col-sm-4">
+    			<a href="https://nicholasrohrer.github.io/Wikipedia-Viewer/" target="_blank"><img src="../Portfolio/img/wikipedia_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+    			<p class="project-title">Wikipedia Viewer</p>
+    			<p class="project-description">Search for articles on Wikipedia, view a brief description, and then click to open the corresponding page.</p>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-4">
+    			<a href="https://nicholasrohrer.github.io/Random-Quote-Generator/" target="_blank"><img src="../Portfolio/img/quote_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+    			<p class="project-title">Random Quote Generator</p>
+    			<p class="project-description">View random quotes and tweet them by simply pressing the Twitter logo button.</p>
+    		</div>
+    		<div class="col-sm-4">
+                <a href="https://nicholasrohrer.github.io/Local-Weather-App/" target="_blank"><img src="../Portfolio/img/weather_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+                <p class="project-title">Local Weather</p>
+                <p class="project-description">View current, hourly, and weekly weather data for your location.</p>
+            </div>
+    		<div class="col-sm-4">
+    			<img src="../Portfolio/img/calculator_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image">
+    			<p class="project-title">Javascript Calculator</p>
+    		</div>
+    	</div>
+    </div>
+    
+</div>
+
+<!-- Contact Section -->
+<div class="container-fluid text-center contact-section" id="contact">
+    <h3>Contact Me</h3>
+    <p>Email: nicholasjrohrer@gmail.com</p>
+    <p>Phone: (708) 921-8979</p>
+    <p>Website: nicholasrohrer.github.io/Portfolio/</p>
+    <a href="https://www.dropbox.com/s/8ozsd29wpbyeq7y/NicholasRohrer_Resume2017.pdf?dl=0" target="_blank"><p>Resume</p></a>
+    <a href="https://github.com/NicholasRohrer" target="_blank"><i class="fa fa-github social" aria-hidden="true"></i></a>
+    <a href="https://www.freecodecamp.com/nicholasrohrer" target="_blank"><i class="fa fa-free-code-camp social" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/nicholas-rohrer-17b779101/" target="_blank"><i class="fa fa-linkedin-square social" aria-hidden="true"></i></a>
+    <a href="http://stackoverflow.com/users/6843762/nicholas-rohrer" target="_blank"><i class="fa fa-stack-overflow social" aria-hidden="true"></i></a>
+</div>
 
 </body>
 </html>
