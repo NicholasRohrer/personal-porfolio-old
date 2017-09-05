@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!-- css file -->
 	<link rel="stylesheet" type="text/css" href="../Portfolio/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -31,7 +33,7 @@
 	    <div class="collapse navbar-collapse" id="topNavbar">
 	    	<ul class="nav navbar-nav navbar-right">
                 <li><a href="#home">HOME</a></li>
-		        <li><a href="#about">ABOUT</a></li>
+		        <li><a href="#about">SKILLS</a></li>
 		        <li><a href="#portfolio">RECENT WORK</a></li>
 		        <li><a href="#contact">CONTACT</a></li>
 	      	</ul>
@@ -44,7 +46,7 @@
     <div class="home-content">
 
         <h1>Nicholas Rohrer</h1>
-        <h4>< Front End / Fullstack Engineer ></h4>
+        <h3>Software Engineer</h3>
             
         <div class="container">
             <hr>
@@ -60,22 +62,25 @@
 <!-- About Section -->
 <div class="container-fluid text-center about-section" id="about">
     
-    <div class="about-content">
-        <h2>About Me</h2>
-
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <p>Hello! My name is Nicholas Rohrer, and I am a front end and fullstack software developer. I studied computer engineering for 3 years at the Univeristy of Illinois at Urbana-Champaign and received a Bachelor of Science in Atmospheric Sciences.</p>
-            </div>
+    <div class="about-content container">
+        <h2>Skills</h2>
+        <div class="icon-row">
+            <i class="devicon-java-plain-wordmark codeicon"></i>
+            <i class="devicon-javascript-plain codeicon"></i>
+            <i class="devicon-python-plain-wordmark codeicon"></i>
         </div>
-
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <p>My software background includes Javascript, MongoDB, Express.js, Angular, Node.js, HTML, and CSS. I am also very familiar with languages such as Java, C, C++, and Python.</p>
-            </div>
+        <div class="icon-row">
+            <i class="devicon-nodejs-plain-wordmark codeicon"></i>
+            <i class="devicon-mongodb-plain-wordmark codeicon"></i>
+            <i class="devicon-angularjs-plain codeicon"></i>
         </div>
-
-        <div class="row">
+        <div class="icon-row">
+            <i class="devicon-react-original-wordmark codeicon"></i>
+            <i class="devicon-html5-plain-wordmark codeicon"></i>
+            <i class="devicon-css3-plain-wordmark codeicon"></i>
+        </div>
+        
+        <div class="row" id="beforeRecent">
             <div class="col-md-6 col-md-offset-3">
                 <p>Take a look at some of my recent work below! Click on the images to open up and demo the applications.</p>
             </div>
@@ -90,51 +95,56 @@
 
     <div class="container-fluid text-center" id="portfolio">
     	<div class="row">
-    		<div class="col-sm-4">
+             <div class="col-md-3 col-sm-6">
+                <a href="https://musicalpursuit.herokuapp.com/" target="_blank"><img src="../Portfolio/img/musicalpursuit_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+                <p class="project-title">MusicalPursuit</p>
+                <p class="project-description">Review, share, and discover new music. Sign up with a free account to try it out for yourself!</p>
+            </div>
+    		<div class="col-md-3 col-sm-6">
     			<a href="https://nicholasrohrer.github.io/Twitch-Viewer/" target="_blank"><img src="../Portfolio/img/twitch_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
     			<p class="project-title">Twitch Viewer</p>
     			<p class="project-description">View live data from a selection of Twitch streamers. Check online status and current viewer count.</p>
     		</div>
-            <div class="col-sm-4">
-                <a href="https://unix-timestamp-converter.herokuapp.com/" target="_blank"><img src="../Portfolio/img/timestamp_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
-                <p class="project-title">Unix Timestamp Converter</p>
-                <p class="project-description">Timestamp API Microservice. Convert Unix dates to natural dates and vice versa.</p>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-6">
                 <a href="https://nicholasrohrer.github.io/rgb-guesser/" target="_blank"><img src="../Portfolio/img/rgbguesser_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">RGB Color Game</p>
                 <p class="project-description">Guess the correct RGB color from the displayed color tiles. Toggle between easy and hard mode.</p>
             </div>
-    	</div>
-    	<div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-6">
                 <a href="https://nicholasrohrer.github.io/Wikipedia-Viewer/" target="_blank"><img src="../Portfolio/img/wikipedia_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">Wikipedia Viewer</p>
                 <p class="project-description">Search for articles on Wikipedia, view a brief description, and then click to open the corresponding page.</p>
             </div>
-    		<div class="col-sm-4">
-                <a href="https://nicholasrohrer.github.io/Local-Weather-App/" target="_blank"><img src="../Portfolio/img/weather_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
-                <p class="project-title">Local Weather</p>
-                <p class="project-description">View current, hourly, and weekly weather data for your location.</p>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-3 col-sm-6">
+                <a href="https://unix-timestamp-converter.herokuapp.com/" target="_blank"><img src="../Portfolio/img/timestamp_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+                <p class="project-title">Unix Timestamp Converter</p>
+                <p class="project-description">Timestamp API Microservice. Convert Unix dates to natural dates and vice versa.</p>
             </div>
-    		<div class="col-sm-4">
+    		<div class="col-md-3 col-sm-6">
                 <a href="https://nicholasrohrer.github.io/Stopwatch/" target="_blank"><img src="../Portfolio/img/stopwatch_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">Stopwatch</p>
                 <p class="project-description">Start, stop, and reset a 60 minute timer.</p>
             </div>
-    	</div>
-        <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-6">
                 <a href="https://nicholasrohrer.github.io/calculator/" target="_blank"><img src="../Portfolio/img/calculator_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">JavaScript Calculator</p>
                 <p class="project-description">Perform basic calculator functions similar to the popular iOS calculator</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-6">
+                <a href="https://nicholasrohrer.github.io/Local-Weather-App/" target="_blank"><img src="../Portfolio/img/weather_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
+                <p class="project-title">Local Weather</p>
+                <p class="project-description">View current, hourly, and weekly weather data for your location.</p>
+            </div>
+    	</div>
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-3">
                 <a href="https://nicholasrohrer.github.io/Random-Quote-Generator/" target="_blank"><img src="../Portfolio/img/quote_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">Random Quote Generator</p>
                 <p class="project-description">View random quotes and tweet them by simply pressing the Twitter logo button.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <a href="https://github.com/NicholasRohrer/bank-app" target="_blank"><img src="../Portfolio/img/bank-app_screenshot.png" class="img-responsive portfolio-img" style="width:100%" alt="Image"></a>
                 <p class="project-title">Java Bank App</p>
                 <p class="project-description">Create a new checking or savings account, make deposits and withdrawals, and list your account details.</p>

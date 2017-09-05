@@ -34,9 +34,25 @@ body {
         0px 18px 23px rgba(0,0,0,0.1);
 }
 
-i:hover {
+a i:hover {
   text-shadow: 0px 8px 3px rgba(0,0,0,0.4);
   color: #e8edf2;
+}
+
+.codeicon:hover {
+  text-shadow: 0px 8px 3px rgba(0,0,0,0);
+  color: #4eabe5;
+}
+
+.codeicon {
+  font-size: 5em;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icon-row {
+  margin-top: 30px;
 }
 
 hr {
@@ -57,6 +73,7 @@ h1 {
 
 h2 {
   margin-bottom: 30px;
+  text-decoration: underline;
 }
 
 .about-section {
@@ -69,6 +86,10 @@ h2 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#beforeRecent {
+  margin-top: 50px;
 }
 
 .portfolio-section {
@@ -92,7 +113,7 @@ h2 {
 }
 
 .project-description {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .contact-section {
